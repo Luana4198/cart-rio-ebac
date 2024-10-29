@@ -1,2 +1,2 @@
-# cart-rio-ebac
+# cartrioebac
 projeto do curso de ti da ebac
