@@ -127,7 +127,7 @@ int deletar()
 	   printf("\t3 - Deletar nomes\n");
 	   printf("\t Esse software é para Luana\n");
 	   printf("Opção: ");
-	 
+	   printf("\t4 - Sair do sistema\n\n");
 	    scanf("%d", &opcao);
 	
 	   system("cls");
@@ -146,6 +146,11 @@ int deletar()
 	       	deletar();
 	        break;
 	        	
+	        case 4:
+	        printf ("obrigado por utilizar o sistema\n");
+	        return 0;
+	        break;
+	        
 	        default:
 	        printf("Essa opção não está Disponível!!\n");
 	        system("pause");
